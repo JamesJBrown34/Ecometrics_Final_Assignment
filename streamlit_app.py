@@ -1,3 +1,5 @@
+import streamlit as st
+import streamlit.components.v1 as components
 import React, { useState, useEffect } from 'react';
 
 const StudentETFApp = () => {
