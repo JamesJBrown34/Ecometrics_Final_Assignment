@@ -1,10 +1,4 @@
 import streamlit as st
-
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
-import streamlit as st
 import streamlit.components.v1 as components
 
 # Set the page config for the Streamlit app
@@ -717,6 +711,8 @@ html_code = """
 # Use Streamlit's components.html to embed the HTML code.
 # Adjust the height and scrolling as needed.
 components.html(html_code, height=1500, scrolling=True)
+
+
 
 
 
